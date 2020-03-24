@@ -1,0 +1,28 @@
+{
+  "name": "shhpotify",
+  "version": "1.0.0",
+  "description": "Polls spotify and restarts it when an advertisement is played. (requires shpotify)",
+  "main": "index.js",
+  "devDependencies": {
+    "electron": "^8.1.1",
+    "electron-builder": "^22.4.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaun-chiang/shhpotify.git"
+  },
+  "author": "Shaun Chiang",
+  "license": "MIT",
+  "build": {
+    "appId": "com.shaun.chiang.shhpotify"
+  },
+  "bugs": {
+    "url": "https://github.com/shaun-chiang/shhpotify/issues"
+  },
+  "homepage": "https://github.com/shaun-chiang/shhpotify#readme"
+}
