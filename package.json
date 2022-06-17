@@ -4,7 +4,7 @@
   "description": "Polls spotify and restarts it when an advertisement is played. (requires shpotify)",
   "main": "index.js",
   "devDependencies": {
-    "electron": "^8.5.2",
+    "electron": "^15.5.5",
     "electron-builder": "^22.4.1"
   },
   "scripts": {
